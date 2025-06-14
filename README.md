@@ -32,17 +32,11 @@ Unlike more complex tools such as Aircrack-ng or Hashcat, this application uses 
 
 ## Installation
 
-1. you can clone ONLY this folder if you run this command: 
+1. Clone the repository using the following command:
 
 ```bash
-git clone --filter=blob:none --no-checkout https://github.com/YanivHaliwa/Cyber-Stuff.git && cd Cyber-Stuff && git sparse-checkout init --cone && git sparse-checkout set brute_wifi  && git checkout
-```
-
-OR you can Clone the repository using the following command:
-
-```bash
-git clone https://github.com/YanivHaliwa/Cyber-Stuff.git
-cd Cyber-Stuff/brute_wifi
+git clone https://github.com/YanivHaliwa/brute_wifi.git
+cd brute_wifi
 ```
 
 2. Install required dependencies:
